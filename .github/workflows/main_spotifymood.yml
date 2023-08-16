@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Create and start virtual environment / install flask
+      - name: Create and start virtual environment
         run: |
           python -m venv venv
           source venv/bin/activate
@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'SpotifyMood'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7A66DB49A62E4FFF810A2EDFF054A545 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA4088A2B2D144C28A1197533F3238FD }}
