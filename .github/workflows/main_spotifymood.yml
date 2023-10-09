@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'SpotifyMood'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8162747047444E039F0D91DA5C158245 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_819B3917561E4E829002C0AB872AD659 }}
